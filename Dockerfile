@@ -19,5 +19,5 @@ COPY . .
 # Expose port
 EXPOSE 3000
 
-# Start the application
+# Start the application in container
 CMD ["npm", "start"]
